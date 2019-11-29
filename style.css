@@ -1,11 +1,71 @@
-/* CSS files add styling rules to your content */
-
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+:root {
+  --color_background: #FBF9EB;
+  --color_window_background: #F9DC36;
+  --color_h2: #286FC0;
+  --color_h1: #E41B4A;
+  --color_text: #0B1F36;
+  --color_link: blue;
+  --color_link_hover: aqua;
 }
 
-h1 {
-  font-style: italic;
-  color: #373fff;
+body {
+  background-color: var(--color_background);
+  background-image: image("");
+}
+.login {
+  background-color: var(--color_text);
+  color: var(--color_h2);
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: var(--color_window_background);
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+}
+.login.header {
+  background-color: var(--color_window_background);
+  color: var(--color_text);
+  width: 100%;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  margin-left: -5px;
+  border-width: unset;
+  border-bottom-left-radius: unset;
+  border-bottom-right-radius: unset;
+}
+.login.header h1 {
+  margin-left: 20px;
+}
+.login table {margin-left: 20px;}
+.login a {margin-left: 20px;}
+.login a {color: var(--color_link);}
+.login a:hover {color: var(--color_link_hover);}
+.login .create_account {
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.login input {
+  border-color: #F9DC36;
+  border-width: 2px;
+}
+.login table {
+  margin-left: 20%;
+  /*margin-right: auto;*/
+}
+.login input.in_field {
+  width: 200%;
+}
+.login input.button {
+  background-color: var(--color_text);
+  color: var(--color_window_background);
+  font-weight: bold;
+  border-radius: 10px;
+}
+.login input.button:hover {
+  background-color: var(--color_link_hover);
 }
