@@ -7,6 +7,8 @@
         $user_password = $_POST('password');
     }
 
-    echo $user_email;
+//    echo $user_email;
 
 ?>
+
+<head><body><?php echo $user_email?></body></head>
