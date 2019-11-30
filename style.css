@@ -24,11 +24,6 @@ body {
 .login {
   background-color: var(--color_text);
   color: var(--color_h2);
-  /*width: 100%;*/
-  /*width: 700px;*/
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
-  /*margin-top: 15%;*/
   border-radius: 20px;
   border-style: solid;
   border-width: 5px;
@@ -65,17 +60,22 @@ body {
 }
 .login table {
   margin-left: 20%;
-  /*margin-right: auto;*/
 }
 .login input.in_field {
   width: 200%;
 }
 .login input.button {
+  width: 100px;
   background-color: var(--color_text);
   color: var(--color_window_background);
   font-weight: bold;
   border-radius: 10px;
+  border-color: var(--color_window_background);
 }
 .login input.button:hover {
-  background-color: var(--color_link_hover);
+  /*background-color: var(--color_link_hover);*/
+  /*border-width: 15px;*/
+  color: var(--color_text);
+  background-color: var(--color_window_background);
+  border-color: var(--color_window_background);
 }
