@@ -9,16 +9,26 @@
 }
 
 body {
-  background-color: var(--color_background);
-  background-image: image("");
+  background-image: url("https://cdn.glitch.com/01a2ecf1-35ad-4f0b-9ef7-c1f4da0e69c4%2FChatSpaceBanner_V6.png?v=1575090169519");
 }
-.login {
-  background-color: var(--color_text);
-  color: var(--color_h2);
+.login_shade {
+  border-color: #0B1F36;
+  border-width: 2px;
+  border-radius: 20px;
+  border-style: solid;
   width: 700px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15%;
+}
+.login {
+  background-color: var(--color_text);
+  color: var(--color_h2);
+  /*width: 100%;*/
+  /*width: 700px;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  /*margin-top: 15%;*/
   border-radius: 20px;
   border-style: solid;
   border-width: 5px;
@@ -33,7 +43,7 @@ body {
   width: 100%;
   margin-top: -5px;
   margin-bottom: 20px;
-  margin-left: -5px;
+  margin-left: -4px;
   border-width: unset;
   border-bottom-left-radius: unset;
   border-bottom-right-radius: unset;
