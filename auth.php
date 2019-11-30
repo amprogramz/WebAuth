@@ -1,3 +1,4 @@
+<head><body>
 <?php
     $user_email = "";
     $user_password = "";
@@ -11,4 +12,4 @@
 
 ?>
 
-<head><body><?php echo $user_email?></body></head>
+<?php echo $user_email?></body></head>
