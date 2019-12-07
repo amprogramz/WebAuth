@@ -6,15 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!--<link rel="stylesheet" href="/style.css">-->
-    <script src="/script.js" defer></script>
+    <script src="script.js" type="text/javascript"></script>
   </head>  
   <body>
 
 
-    <div class="login_shade"><form class="login" action="auth.php" method="post">
+    <div class="login_shade"><form class="login" action="javascript:handleUserLogin();" method="post"><!-- method="post" action="javascript:handleUserLogin()"-->
       <div class="login header"><h1>Hi there! Please login to continue...</h1></div>
       <table>
+        <tr><div class="results"></div></tr>
         <tr>
           <td>Email:</td>
           <td><input class="in_field" type="email" name="email_addr"></td>
@@ -34,6 +36,8 @@
       </div>
     </form></div>
     
+    <!-- Initiate listener to prevent double submit.-->
+    <script>handleUserLogin();</script>
     <p>
     </p>
   </body>

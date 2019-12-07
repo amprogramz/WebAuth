@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a37b3c38-1943-4bb9-8a20-35116ef66b82" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +15,30 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="840e0cd8-1f34-42cf-9755-9838eada60e5" />
+    </checked>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -24,23 +47,49 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1UFiwWF5SyQVx2FmMHjpoFmCGW1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite&#10;cassandra&#10;mysql.8&#10;mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/xampp/php/php.ini" />
+    <property name="js.last.introduce.type" value="VAR" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../src" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager">
+    <configuration name="Unnamed" type="FirefoxRemoteDebugType" nameIsGenerated="true">
+      <method v="2">
+        <option name="LaunchBrowser.Before.Run" browser="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@224c483a" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -55,7 +104,13 @@
       <option name="presentableId" value="Default" />
       <updated>1574958982493</updated>
       <workItem from="1574958984044" duration="20814000" />
-      <workItem from="1575126260491" duration="6059000" />
+      <workItem from="1575126260491" duration="6773000" />
+      <workItem from="1575144268683" duration="868000" />
+      <workItem from="1575152080955" duration="3269000" />
+      <workItem from="1575159056897" duration="8411000" />
+      <workItem from="1575211471613" duration="1659000" />
+      <workItem from="1575230981008" duration="297000" />
+      <workItem from="1575231516148" duration="75949000" />
     </task>
     <servers />
   </component>
@@ -74,5 +129,47 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="626" y="66" key="#CLI_Interpreters" timestamp="1575245474250">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="626" y="66" key="#CLI_Interpreters/0.0.1536.824@0.0.1536.824" timestamp="1575245474250" />
+    <state x="857" y="5" key="#PHP" timestamp="1575242179303">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="857" y="5" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1575242179303" />
+    <state x="361" y="70" key="#SQL_Dialects" timestamp="1575152818602">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1575152818602" />
+    <state x="447" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575255192433">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1575255192433" />
+    <state x="953" y="114" key="ExecutionTargetDialog" timestamp="1575169099772">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="953" y="114" key="ExecutionTargetDialog/0.0.1536.824@0.0.1536.824" timestamp="1575169099772" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1575338754396">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575338754396" />
+    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1575170140661">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1575170140661" />
+    <state x="555" y="54" key="SettingsEditor" timestamp="1575245476480">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="555" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575245476480" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1575231518371">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1575231518371" />
+    <state x="798" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1575569862950">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="798" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1575569862950" />
   </component>
 </project>
