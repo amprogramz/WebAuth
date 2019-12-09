@@ -11,10 +11,8 @@
     <script src="script.js" type="text/javascript"></script>
   </head>  
   <body>
-
-
-    <div class="login_shade"><form class="login" action="javascript:handleUserLogin();" method="post"><!-- method="post" action="javascript:handleUserLogin()"-->
-      <div class="login header"><h1>Hi there! Please login to continue...</h1></div>
+    <div class="login_shade"><form class="form login" action="javascript:handleUserLogin();" method="post"><!-- method="post" action="javascript:handleUserLogin()"-->
+      <div class="form header"><h1>Hi there! Please login to continue...</h1></div>
       <table>
         <tr><div class="results"></div></tr>
         <tr>
@@ -30,12 +28,12 @@
         </tr>
       </table>
       <div class="create_account">
-        <a href="create_new_account.html">Create Account</a>
+        <a href="createAccount.html">Create Account</a>
         <br>
-        <a href="forgot_password.html">Forgot Password</a> <br>
+        <a href="forgotPassword.html">Forgot Password</a> <br>
       </div>
     </form></div>
-    
+
     <!-- Initiate listener to prevent double submit.-->
     <script>handleUserLogin();</script>
     <p>

@@ -13,8 +13,8 @@ CREATE TABLE user_auth (
 CREATE TABLE user_info (
 
     user_id     INT     NOT NULL   PRIMARY KEY      AUTO_INCREMENT,
-    user_email  VARCHAR(255)    NOT NULL	unique,
-    user_name   VARCHAR(255)    NOT NULL 	unique,
+    user_email  VARCHAR(255)    NOT NULL,
+    user_name   VARCHAR(255)    NOT NULL,
     user_first_name VARCHAR(255)    NOT NULL,
     user_last_name VARCHAR(255)    NOT NULL,
     date_of_birth VARCHAR(255)    NOT NULL

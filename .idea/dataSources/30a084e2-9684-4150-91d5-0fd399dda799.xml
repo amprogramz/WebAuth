@@ -1185,28 +1185,10 @@
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="293" parent="280" name="user_email">
-      <ColNames>user_email</ColNames>
-      <Unique>1</Unique>
-      <Type>btree</Type>
-    </index>
-    <index id="294" parent="280" name="user_name">
-      <ColNames>user_name</ColNames>
-      <Unique>1</Unique>
-      <Type>btree</Type>
-    </index>
-    <key id="295" parent="280" name="PRIMARY">
+    <key id="293" parent="280" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>user_id</ColNames>
       <Primary>1</Primary>
-    </key>
-    <key id="296" parent="280" name="user_email">
-      <ColNames>user_email</ColNames>
-      <UnderlyingIndexName>user_email</UnderlyingIndexName>
-    </key>
-    <key id="297" parent="280" name="user_name">
-      <ColNames>user_name</ColNames>
-      <UnderlyingIndexName>user_name</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>

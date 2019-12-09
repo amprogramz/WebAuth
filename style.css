@@ -21,7 +21,7 @@ body {
   margin-right: auto;
   margin-top: 15%;
 }
-.login {
+.form {
   background-color: var(--color_text);
   color: var(--color_h2);
   border-radius: 20px;
@@ -32,7 +32,7 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
-.login.header {
+.form.header {
   background-color: var(--color_window_background);
   color: var(--color_text);
   width: 100%;
@@ -43,28 +43,28 @@ body {
   border-bottom-left-radius: unset;
   border-bottom-right-radius: unset;
 }
-.login.header h1 {
+.form.header h1 {
   margin-left: 20px;
 }
-.login table {margin-left: 20px;}
-.login a {margin-left: 20px;}
-.login a {color: var(--color_link);}
-.login a:hover {color: var(--color_link_hover);}
-.login .create_account {
+.form table {margin-left: 20px;}
+.form a {margin-left: 20px;}
+.form a {color: var(--color_link);}
+.form a:hover {color: var(--color_link_hover);}
+.form .create_account {
   margin-top:20px;
   margin-bottom: 20px;
 }
-.login input {
+.form input {
   border-color: #F9DC36;
   border-width: 2px;
 }
-.login table {
+.form table {
   margin-left: 20%;
 }
-.login input.in_field {
-  width: 200%;
+.form input.in_field {
+  width: 100%;
 }
-.login input.button {
+.form input.button {
   width: 100px;
   background-color: var(--color_text);
   color: var(--color_window_background);
@@ -72,10 +72,14 @@ body {
   border-radius: 10px;
   border-color: var(--color_window_background);
 }
-.login input.button:hover {
+.form input.button:hover {
   /*background-color: var(--color_link_hover);*/
   /*border-width: 15px;*/
   color: var(--color_text);
   background-color: var(--color_window_background);
   border-color: var(--color_window_background);
+}
+.error {
+  color: var(--color_h1);
+  font-size: 10px;
 }
