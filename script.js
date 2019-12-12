@@ -28,7 +28,6 @@ function handleCheckDOB() {
             $('#dob_err').text("");
         }
     });
-    //checkValidityAjax('.emailAddr', 'checkEmail.php', "Email already exists.");
 }
 
 function handleCheckPassword() {
@@ -39,7 +38,6 @@ function handleCheckPassword() {
 //.change
 function checkValidityAjax(classField, serialField, fileURL, errID, errString) {
     $(classField).keyup(function () {
-        //var text = $(this).value
         let data = $(serialField).serialize();
         request = $.ajax({url:fileURL, type:'post', data:data});
         request.done(function (result) {
@@ -64,7 +62,6 @@ function handleAjax(formClass, fileURL) {
         let $inputs = $form.find("input, select, button, textarea");
         let form_data = $($form).serialize();
         $inputs.prop("disable", true);
-        //console.log("form data" + form_data);
         request = $.ajax({url:fileURL, type:'post', data:form_data});
         request.done(function(result) {
             console.log(result);

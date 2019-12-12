@@ -4,14 +4,14 @@ class userAuthMethods
     public static function checkIfAvailable($postField, $table, $field){
         $user_entry = "";
         if($_SERVER["REQUEST_METHOD"] == "POST") {
-            $user_entry = $_POST[$postField];
+            $user_entry = htmlspecialchars($_POST[$postField]);
         }
         $connection = self::connectToDb();
         $query_result = self::trySelectWhere($connection, $table, $field, $user_entry);
         if($query_result != null) {
-            echo true; // record exists
+            echo true; // record exists.
         } else {
-            echo false; //no record.
+            echo false; // no record.
         }
         $connection = null;
     }
@@ -27,13 +27,13 @@ class userAuthMethods
 
 
         if($_SERVER["REQUEST_METHOD"] == "POST") {
-            $user_email = $_POST["email_addr"];
-            $user_name = $_POST["user_name"];
-            $user_first_name = $_POST["first_name"];
-            $user_last_name = $_POST["last_name"];
-            $password = $_POST["pass"];
-            $password_two = $_POST['pass2'];
-            $date_of_birth = $_POST["date_of_birth"];
+            $user_email = htmlspecialchars($_POST["email_addr"]);
+            $user_name = htmlspecialchars($_POST["user_name"]);
+            $user_first_name = htmlspecialchars($_POST["first_name"]);
+            $user_last_name = htmlspecialchars($_POST["last_name"]);
+            $password = htmlspecialchars($_POST["pass"]);
+            $password_two = htmlspecialchars($_POST['pass2']);
+            $date_of_birth = htmlspecialchars($_POST["date_of_birth"]);
         }
 
         $connection = self::connectToDb();
@@ -89,8 +89,8 @@ class userAuthMethods
         $connection = self::connectToDb();
 
         if($_SERVER["REQUEST_METHOD"] == "POST") {
-            $user_email = $_POST["email_addr"];
-            $password = $_POST["pass"];
+            $user_email = htmlspecialchars($_POST["email_addr"]);
+            $password = htmlspecialchars($_POST["pass"]);
         }
 
         $query_result = self::trySelectWhere($connection, "user_info", "user_email", $user_email);
